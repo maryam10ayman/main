@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>موقع بندات الروك</title>
+	<link rel="stylesheet" type="text/css" href="ma.css">
+</head>
+<body>
+	<header>
+		<h1>بندات الروك الأسطورية</h1>
+	</header>
+
+	<section>
+		<h2>Queen</h2>
+		<p>Queen هي فرقة روك إنجليزية تأسست في عام 1970 في لندن، وتتألف من المغني فريدي ميركوري والموسيقيين براين ماي وروجر تايلور وجون ديكون. اشتهرت Queen بأغانيها الشهيرة مثل Bohemian Rhapsody وWe Will Rock You وWe Are the Champions.</p>
+		<img src="https://cdn.britannica.com/83/149183-050-25913164/Queen.jpg">
+		
+		<div id="like-section">
+			<button id="like-button" onclick="incrementLikes()">أعجبني</button>
+			<p id="like-count">0</p>
+		</div>
+		
+		<div id="comment-section">
+			<h3>أضف تعليقًا:</h3>
+			<textarea id="comment-input"></textarea>
+			<button id="comment-button" onclick="addComment()">أرسل</button>
+			<div id="comment-list"></div>
+		</div>
+	</section>
+
+	<footer>
+		<p>جميع الحقوق محفوظة &copy; 2023</p>
+	</footer>
+
+	<script src="ma.js"></script>
+</body>
+</html>
